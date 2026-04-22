@@ -1,6 +1,6 @@
 ⚙️ Backend (Server)
 
-This is the Express backend of the Hotel Booking App.
+This is the Express backend of the Hotel Booking App, deployed on Railway.
 
 ---
 
@@ -38,6 +38,8 @@ CLOUDINARY_API_SECRET=your_api_secret
 FRONTEND_URL=http://localhost:5173
 NODE_ENV=development
 
+For production on Railway, set FRONTEND_URL to https://glittery-lollipop-045767.netlify.app
+
 ---
 
 📁 API Routes (v1)
@@ -60,6 +62,8 @@ GET /health
 
 Response:
 { "status": "OK", "database": "connected" }
+
+Live example: https://hotel-booking-app-production-a000.up.railway.app/health
 
 ---
 

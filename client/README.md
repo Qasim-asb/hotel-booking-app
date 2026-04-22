@@ -1,6 +1,6 @@
 🎨 Frontend (Client)
 
-This is the React frontend of the Hotel Booking App.
+This is the React frontend of the Hotel Booking App, deployed on Netlify.
 
 ---
 
@@ -25,9 +25,14 @@ npm run dev
 
 🔐 Environment Variables
 
-Create a ".env" file:
+Create a ".env" file for local development:
 
 VITE_API_URL=http://localhost:3000/api/v1
+
+For production (Netlify), set VITE_API_URL to:
+https://hotel-booking-app-production-a000.up.railway.app/api/v1
+
+Add this variable in Netlify site settings → Environment variables.
 
 ---
 
@@ -54,6 +59,7 @@ npm run build
 
 Deploy on Netlify with:
 
+- Base directory: client
 - Build command: npm run build
 - Publish directory: dist
 

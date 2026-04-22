@@ -6,8 +6,8 @@ A full-stack hotel booking application where users can browse hotels, apply filt
 
 🚀 Live Demo
 
-- Frontend: https://your-netlify-app.netlify.app
-- Backend: https://your-koyeb-app.koyeb.app
+- Frontend: https://glittery-lollipop-045767.netlify.app
+- Backend: https://hotel-booking-app-production-a000.up.railway.app
 
 ---
 
@@ -55,7 +55,7 @@ hotel-booking-app/
 
 1. Clone Repo
 
-git clone https://github.com/your-username/hotel-booking-app.git
+git clone https://github.com/Qasim-asb/hotel-booking-app.git
 cd hotel-booking-app
 
 ---
@@ -93,6 +93,8 @@ NODE_ENV=development
 Client (.env)
 
 VITE_API_URL=http://localhost:3000/api/v1
+
+For production on Netlify, set VITE_API_URL to https://hotel-booking-app-production-a000.up.railway.app/api/v1 in Netlify environment variables.
 
 ---
 
